@@ -1,0 +1,1 @@
+customer2.php ไม่ได้ใช้ เพราะมีใน customer1 แล้ว

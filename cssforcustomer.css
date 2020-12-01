@@ -1,0 +1,252 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    font-size: 17px;
+    font-weight: 300; 
+    color: Black;
+    text-align: center;
+    background-image: -moz-linear-gradient(to left,#74ebd5,#9face6);
+    background-image: -ms-linear-gradient(to left,#74ebd5,#9face6);
+    background-image: -o-linear-gradient(to left,#74ebd5,#9face6);
+    background-image: -webkit-linear-gradient(to left,#74ebd5,#9face6);
+    background-image: linear-gradient(to left,#74ebd5,#9face6);
+    }
+    
+    form{
+        width: 700px;
+        text-align: center;
+    }
+    
+    table{
+        border-collapse: collapse;
+        width: 820px;
+        }
+
+    tr{
+        border-bottom: 2px solid #ccc;
+      }
+
+    fieldset{
+        width: 820px;
+        background-color: rgb(255, 255, 255);
+        margin: 80px 0px 0px 230px;
+        border-width: 5px 5px 5px 5px;
+        border: white 0px;
+        border-radius: 7px;
+        padding: 40px 30px;
+    }
+
+    input[type = text], input[type = email], input[type = password]{
+        width: 80%;
+        margin-bottom: 25px;
+        padding: 15px 20px;
+        display: inline-block;
+        box-sizing: border-box;
+        border: solid #ebebeb 1px;
+        border-radius: 5px;
+        text-align: left; 
+    }
+
+    input[value]{
+        font-family: 'Kanit', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    
+    select{
+        width: 60%;
+        font-family: 'Kanit', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        margin-bottom: 25px;
+        padding: 10px 20px;
+        border: #ebebeb solid 1px;
+        border-radius: 5px;
+        border-color: #ebebeb; 
+    }
+
+    input[type = date]{
+        margin-bottom: 25px;
+        width: 60%;
+        padding: 10px 20px;
+        border: solid 1px #ebebeb;
+        border-radius: 5px;
+        box-sizing: border-box;
+}
+
+    input[type=submit],[type =reset],[button]{
+        width: 23%;
+        color : white;
+        font-size: 13px;
+        font: bolder;
+        margin: 30px 25px 0px 0px; 
+        padding: 12px 40px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-image: -moz-linear-gradient(to left,#74ebd5,#9face6);
+        background-image: -ms-linear-gradient(to left,#74ebd5,#9face6);
+        background-image: -o-linear-gradient(to left,#74ebd5,#9face6);
+        background-image: -webkit-linear-gradient(to left,#74ebd5,#9face6);
+        background-image: linear-gradient(to left,#74ebd5,#9face6);
+    }
+
+    ::placeholder{
+        font-family: 'Kanit', sans-serif;
+        opacity: 0.7;
+    }
+
+    .buttonadd{
+        font-family: 'Kanit', sans-serif;
+        background-color: #23c754;
+        color: white;
+        font-size: 13px;
+        width: 160px;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        
+    }
+     .buttonadd:hover{
+        background-color: #19bb49;
+    }
+
+    .buttonupdate{
+        font-family: 'Kanit', sans-serif;
+        color: #fff;
+        background-color: #5bc0de;
+        border-color: #46b8da;
+        font-size: 13px;
+        margin: 0px;
+        width: 160px;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+    }
+    .buttonupdate:hover{
+        background-color: rgb(18, 155, 189);
+    }
+
+    .buttondelete{
+        font-family: 'Kanit', sans-serif;
+        color: #fff;
+        background-color: #f34c4c;
+        font-size: 13px;
+        margin: 0px;
+        width: 160px;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+    }
+    .buttondelete:hover{
+        background-color: #da2b1f;
+    }
+
+    .buttoncancle{
+        font-family: 'Kanit', sans-serif;
+        color: rgb(255, 255, 255);
+        background-color: #6c757d;
+        border: none;
+        font-size: 13px;
+        margin: 0px;
+        width: 160px;
+        padding: 12px 20px;
+        border-radius: 5px;
+    }
+    .buttoncancle:hover{
+        background-color: #5d656d;
+    }
+
+    .title{
+        margin: 20px 0px 20px 120px;
+        text-align: left;
+        font-size: 22px;
+    }
+
+    .btnedit{
+        font-family: 'Kanit', sans-serif;
+        background-color: #5bc0de;
+        border-color: #46b8da;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        width: 50px;
+        font-size: 13px;
+        margin: 3px 0px 3px 0px;
+        padding: 8px 8px;
+
+    }
+    .btnedit:hover{
+        background-color: rgb(18, 155, 189);
+        color: white;
+    }
+
+    .btndel{
+        font-family: 'Kanit', sans-serif;
+        background-color: #f34c4c;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        width: 60px;
+        font-size: 13px;
+        margin: 3px 0px 3px 0px;
+        padding: 8px 8px;
+
+    }
+    .btndel:hover{
+        background-color: #da2b1f;
+        color: white;
+
+    }
+
+    textarea{
+        width: 54%;
+        font-family: 'Kanit', sans-serif;
+        font-size: 15px;
+        resize: none;
+        border: solid 1px #ebebeb;
+        margin-bottom: 18px;
+        border-radius: 5px;
+        padding: 10px 20px;
+    }
+
+    .fill{
+        color:red; 
+        margin-left:20px; 
+        font-size:23px; 
+        font-weight:400;
+    }
+
+   .showdel{
+        text-align: left;
+        margin-left: 50px;
+    }
+
+   .sessionadd{
+       color: #155724;
+       background-color: #d4edda;
+       border-color: #c3e6cb;
+       padding: 8px 12px;
+       border-radius: .25rem;
+   }
+
+   .sessionedit{
+       color: #004085;
+       background-color: #cce5ff;
+       border-color: #b8daff;
+       padding: 8px 12px;
+       border-radius: .25rem;
+   }
+
+   .sessiondel{
+       color: #721c24;
+       background-color: #f8d7da;
+       border-color: #f5c6cb;
+       padding: 8px 12px;
+       border-radius: .25rem;
+   }
+
+   .welcome{
+        text-align:left;
+        margin: 30px 0px 0px 50px;
+        font-size: 22px;
+   }
