@@ -1,22 +1,49 @@
-<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- <link rel="stylesheet" href="./style.css" > -->
+    <!-- <title>Document</title> -->
+    
+    <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+    <?php
+        require("connect.php");
+        include_once("Res_Head.php");
+        
+    ?>
+  </head>
 
-<?php
-    require("connect.php");
-    include_once("Res_Head.php");
-?>
+  <body>
 
-<form action="" method="POST">
-    <label>Name:</label>
-    <input id="name" type="text" name="name"/><br><br>
-    <label>Phone:</label>
-    <input id="customer" type="text" name="phone"/>
-    <!-- lineId=UID -->
-    <input id="lineId" type="text" name="lineId" /><br><br>
-    <button type="submit" name="submit" id="exampleModalLong">submit</button>
-</form>
+    <form action="" method="POST" class="form-inline">
+        
+        <!-- lineId=UID -->
+        <input id="lineId" type="hidden" name="lineId" /><br><br>
+           
+        <!-- Name -->
+        <div class="form-group mb-3 mr-4">
+          <label for="text-input">Name: </label>
+          <input class="form-control " type="text" id="name" name="name" placeholder="Your Name">
+        </div>
+      
+        <!-- Phone -->
+        <div class="form-group mb-3 mr-4">
+          <label for="tel-input">Phone: </label>
+          <input class="form-control  " type="tel" id="customer" name="phone" placeholder="0xx-xxx-xxxx">
+        </div>
 
-<?php
-?>
+        <!-- submit -->
+        <button class="btn btn-success mb-3" type="submit" name="submit" id="exampleModalLong">Submit</button>
+    
+    </form>
+    
+
+  </body>
+
+</html>
+
 
 <!-- Button trigger modal -->
 <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
