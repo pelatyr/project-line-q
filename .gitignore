@@ -1,0 +1,7 @@
+# Binaries for programs and plugins
+*.txt
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+/nest8-api
+*.DS_Store
